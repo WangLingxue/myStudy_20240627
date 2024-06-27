@@ -22,6 +22,9 @@ public class ProductInnnerController {
     @Autowired
     private SkuInfoService skuInfoService;
 
+    public void test(){
+        System.out.println("hello");
+    }
     //根据分类id获取分类信息
     @GetMapping("inner/getCategory/{categoryId}")
     public Category getCategory(@PathVariable Long categoryId) {
