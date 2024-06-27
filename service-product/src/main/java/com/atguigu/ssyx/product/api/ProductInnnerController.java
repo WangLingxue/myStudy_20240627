@@ -17,6 +17,7 @@ import java.util.List;
 @RequestMapping("/api/product/")
 public class ProductInnnerController {
 
+    String a;
     @Autowired
     private CategoryService categoryService;
     @Autowired
